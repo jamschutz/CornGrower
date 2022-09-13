@@ -1,0 +1,12 @@
+body {
+    background: url("../images/night-sky-2.jpg") no-repeat center center fixed;
+    /* background-color: aqua; */
+    /* background-repeat: repeat; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(247, 255, 174);
+    font-size: 25px;
+    padding: 10%;
+}

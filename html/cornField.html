@@ -3,33 +3,59 @@
 <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
 <head>
     <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto+Mono&display=swap" rel="stylesheet"> 
+    <script src="../scripts/cornController.js"></script>    
 </head>
 
 <style>
     body {
         background: url("../images/night-sky-2.jpg") no-repeat center center fixed;
-        /* background-color: aqua; */
-        /* background-repeat: repeat; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         color: rgb(247, 255, 174);
         font-size: 25px;
+        font-family: 'Roboto Mono';
         padding: 10%;
     }
 
-    .welcome-msg {
-        /* padding-top: 250px; */
-        text-align: left;
-        padding-left: 35%;
-        width: 350px;
-        /* background-color: black; */
+    .cornContainer {
+        position: absolute;
+        bottom: 25px;
     }
 </style>
 
-<div class="welcome-msg">
-    <span style="background-color: black">Hey there, traveler. Thanks for stopping by. 
-    <br/><br/>
-    Use the menu on the left to navigate, and adjust the frame sizes how you like.</div></span>
+<div>
+    <div style="position: absolute; bottom: 25px; margin-left: 0%;">
+        <span id="corn1" style="text-align: center;">
+            |<br/>
+        </span>
+        <button onclick="growCorn(1)">Grow</button>
+    </div>
+    <div style="position: absolute; bottom: 25px; margin-left: 20%">
+        <span id="corn2" style="text-align: center;">
+            |<br/>
+        </span>
+        <button onclick="growCorn(2)">Grow</button>
+    </div>
+    <div style="position: absolute; bottom: 25px; margin-left: 40%">
+        <span id="corn3" style="text-align: center;">
+            |<br/>
+        </span>
+        <button onclick="growCorn(3)">Grow</button>
+    </div>
+    <div style="position: absolute; bottom: 25px; margin-left: 60%">
+        <span id="corn4" style="text-align: center;">
+            |<br/>
+        </span>
+        <button onclick="growCorn(4)">Grow</button>
+    </div>
+    <div style="position: absolute; bottom: 25px; margin-left: 80%">
+        <span id="corn5" style="text-align: center;">
+            |<br/>
+        </span>
+        <button onclick="growCorn(5)">Grow</button>
+    </div>
+
 </div>
