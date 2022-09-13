@@ -15,7 +15,7 @@
         -o-background-size: cover;
         background-size: cover;
         color: rgb(247, 255, 174);
-        font-size: 25px;
+        font-size: 15px;
         font-family: 'Roboto Mono';
         padding: 10%;
     }
@@ -27,35 +27,40 @@
 </style>
 
 <div>
-    <div style="position: absolute; bottom: 25px; margin-left: 0%;">
+    <div style="position: absolute; bottom: 25px; margin-left: 0%; text-align: center">
         <span id="corn1" style="text-align: center;">
             |<br/>
         </span>
-        <button onclick="growCorn(1)">Grow</button>
+        <button id="grownCorn1" onclick="growCorn(1)">Grow</button>
+        <span style="color: black; display: none;" id="formatHelper1">...</span>
     </div>
-    <div style="position: absolute; bottom: 25px; margin-left: 20%">
+    <div style="position: absolute; bottom: 25px; margin-left: 20%; text-align: center">
         <span id="corn2" style="text-align: center;">
             |<br/>
         </span>
-        <button onclick="growCorn(2)">Grow</button>
+        <button id="grownCorn2" onclick="growCorn(2)">Grow</button>
+        <span style="color: black; display: none;" id="formatHelper2">...</span>
     </div>
-    <div style="position: absolute; bottom: 25px; margin-left: 40%">
+    <div style="position: absolute; bottom: 25px; margin-left: 40%; text-align: center">
         <span id="corn3" style="text-align: center;">
             |<br/>
         </span>
-        <button onclick="growCorn(3)">Grow</button>
+        <button id="grownCorn3" onclick="growCorn(3)">Grow</button>
+        <span style="color: black; display: none;" id="formatHelper3">...</span>
     </div>
-    <div style="position: absolute; bottom: 25px; margin-left: 60%">
+    <div style="position: absolute; bottom: 25px; margin-left: 60%; text-align: center">
         <span id="corn4" style="text-align: center;">
             |<br/>
         </span>
-        <button onclick="growCorn(4)">Grow</button>
+        <button id="grownCorn4" onclick="growCorn(4)">Grow</button>
+        <span style="color: black; display: none;" id="formatHelper4">...</span>
     </div>
-    <div style="position: absolute; bottom: 25px; margin-left: 80%">
+    <div style="position: absolute; bottom: 25px; margin-left: 80%; text-align: center">
         <span id="corn5" style="text-align: center;">
             |<br/>
         </span>
-        <button onclick="growCorn(5)">Grow</button>
+        <button id="grownCorn5" onclick="growCorn(5)">Grow</button>
+        <span style="color: black; display: none;" id="formatHelper5">...</span>
     </div>
 
 </div>
